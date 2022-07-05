@@ -59,7 +59,12 @@ public:
     }
 };
 
-int main(){
-
+int main(){//测试
+    string s="19216801";
+    Solution solution;
+    vector<string> ans = solution.restoreIpAddresses(s);
+    for(string each:ans){
+        cout << each << '\n';
+    }
     return 0;
 }
